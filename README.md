@@ -1,6 +1,7 @@
+# I'm working on this paper for my Masters Project
 # AHCKA: Efficient and Effective Attributed Hypergraph Clustering via K-Nearest Neighbor Augmentation (SIGMOD 2023)
 
-[Link to our paper](https://dl.acm.org/doi/abs/10.1145/3589261)
+[Link to the paper](https://dl.acm.org/doi/abs/10.1145/3589261)
 
 If you use our code or data, please cite:
 
