@@ -3,7 +3,7 @@
 
 [Link to the paper](https://dl.acm.org/doi/abs/10.1145/3589261)
 
-If you use our code or data, please cite:
+CITATIONS:
 
     @article{LiYS23,
       author       = {Yiran Li and
@@ -24,15 +24,6 @@ This repository contains the implementation of AHCKA algorithm for attributed hy
 numpy, scipy, scikit-learn, scann
 
 Install with: `pip install {library_name}`
-
-### Optional: large-scale datasets
-Processed Amazon and MAG-PM datasets, with constructed ScaNN indices, can be downloaded at: https://zenodo.org/records/10035761
-
-Original Amazon and MAG data can be accessed via the following links.
-
-Amazon: https://nijianmo.github.io/amazon/index.html
-
-MAG (OAG v2): https://www.aminer.org/oag2019
 
 ## Usage
 
