@@ -1,5 +1,4 @@
-# I'm working on this paper for my Masters Project
-# AHCKA: Efficient and Effective Attributed Hypergraph Clustering via K-Nearest Neighbor Augmentation (SIGMOD 2023)
+# I'm working on this paper for my Masters Project - AHCKA
 
 [Link to the paper](https://dl.acm.org/doi/abs/10.1145/3589261)
 
@@ -24,6 +23,10 @@ This repository contains the implementation of AHCKA algorithm for attributed hy
 numpy, scipy, scikit-learn, scann
 
 Install with: `pip install {library_name}`
+pip install numpy
+pip install scipy
+pip install scikit-learn
+pip install scann
 
 ## Usage
 
@@ -68,14 +71,6 @@ To **reproduce** the results in our paper, please use the following commands for
 
 ###### DBLP
 `python AHCKA.py --dataset dblp --data coauthorship`
-
-*Note: the following tests require downloading optional large-scale datasets with constructed ScaNN indices.*
-
-###### Amazon
-`python AHCKA.py --dataset amazon --data npz --scale --beta 0.4 --interval 1`
-
-###### MAG-PM
-`python AHCKA.py --dataset magpm --data npz --scale --beta 0.4`
 
 Sample output of AHCKA, on Cora co-authorship dataset:
 ```
